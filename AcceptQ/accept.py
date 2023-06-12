@@ -20,7 +20,7 @@ def accept():
     
     pyautogui.moveTo(steam_location)
     time.sleep(0.5)
-    # pyautogui.leftClick()
+    pyautogui.leftClick()
     print('Queue Found and Accepted')
 
 accept()
